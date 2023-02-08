@@ -1,0 +1,26 @@
+name: Unit Tests
+on: [push]
+jobs:
+  unit:
+    name: Unit Tests
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [18.x]
+    steps:
+      - uses: actions/checkout@v3
+
+      # node setup
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: yarn
+
+      # node install
+      - run: yarn
+
+      - run: make start-test-acceptance-server
+
+      # node test
+      - run: npx wait-on --httpTimeout 20000 http-get://localhost:55001/plone && yarn test
