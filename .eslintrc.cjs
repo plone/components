@@ -1,6 +1,5 @@
 module.exports = {
-  parser: '@typescript-eslint/parser',
-  // Specifies the ESLint parser
+  parser: '@typescript-eslint/parser', // Specifies the ESLint parser
   extends: [
     'plugin:react/recommended',
     'plugin:prettier/recommended',
@@ -8,10 +7,8 @@ module.exports = {
     'plugin:storybook/recommended',
   ],
   parserOptions: {
-    ecmaVersion: 'ESNext',
-    // Allows for the parsing of modern ECMAScript features
-    sourceType: 'module',
-    // Allows for the use of imports
+    ecmaVersion: 'ESNext', // Allows for the parsing of modern ECMAScript features
+    sourceType: 'module', // Allows for the use of imports
     ecmaFeatures: {
       jsx: true, // Allows for the parsing of JSX
     },
