@@ -46,12 +46,21 @@
     "dry-release": "release-it --dry-run",
     "release": "release-it",
     "release-major-alpha": "release-it major --preRelease=alpha",
-    "release-alpha": "release-it --preRelease=alpha"
+    "release-alpha": "release-it --preRelease=alpha",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "publishConfig": {
     "access": "public"
   },
   "devDependencies": {
+    "@storybook/addon-essentials": "^7.0.0-beta.45",
+    "@storybook/addon-interactions": "^7.0.0-beta.45",
+    "@storybook/addon-links": "^7.0.0-beta.45",
+    "@storybook/blocks": "^7.0.0-beta.45",
+    "@storybook/react": "^7.0.0-beta.45",
+    "@storybook/react-vite": "^7.0.0-beta.45",
+    "@storybook/testing-library": "^0.0.14-next.1",
     "@testing-library/jest-dom": "5.16.5",
     "@testing-library/react": "13.4.0",
     "@types/react": "18.0.27",
@@ -64,9 +73,12 @@
     "eslint-config-prettier": "8.6.0",
     "eslint-plugin-prettier": "4.2.1",
     "eslint-plugin-react": "7.32.2",
+    "eslint-plugin-storybook": "^0.6.10",
     "jsdom": "^21.1.0",
     "prettier": "2.8.3",
+    "prop-types": "^15.8.1",
     "release-it": "15.6.0",
+    "storybook": "^7.0.0-beta.45",
     "typescript": "4.9.5",
     "vite": "4.1.1",
     "vitest": "0.28.4",
