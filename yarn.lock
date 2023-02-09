@@ -2099,6 +2099,7 @@ __metadata:
     "@typescript-eslint/parser": 5.50.0
     "@vitejs/plugin-react": 3.1.0
     "@vitest/coverage-c8": 0.28.4
+    classnames: ^2.3.2
     compression: ^1.7.4
     eslint: 8.33.0
     eslint-config-prettier: 8.6.0
@@ -4812,6 +4813,13 @@ __metadata:
   version: 3.7.1
   resolution: "ci-info@npm:3.7.1"
   checksum: 72d93d5101ea1c186511277fbd8d06ae8a6e028cc2fb94361e92bf735b39c5ebd192e8d15a66ff8c4e3ed569f87c2f844e96f90e141b2de5c649f77ec34ff601
+  languageName: node
+  linkType: hard
+
+"classnames@npm:^2.3.2":
+  version: 2.3.2
+  resolution: "classnames@npm:2.3.2"
+  checksum: 2c62199789618d95545c872787137262e741f9db13328e216b093eea91c85ef2bfb152c1f9e63027204e2559a006a92eb74147d46c800a9f96297ae1d9f96f4e
   languageName: node
   linkType: hard
 

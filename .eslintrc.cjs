@@ -1,15 +1,20 @@
 module.exports = {
   parser: '@typescript-eslint/parser',
   // Specifies the ESLint parser
-  extends: ['plugin:react/recommended', 'plugin:prettier/recommended', 'plugin:react/jsx-runtime', 'plugin:storybook/recommended'],
+  extends: [
+    'plugin:react/recommended',
+    'plugin:prettier/recommended',
+    'plugin:react/jsx-runtime',
+    'plugin:storybook/recommended',
+  ],
   parserOptions: {
     ecmaVersion: 'ESNext',
     // Allows for the parsing of modern ECMAScript features
     sourceType: 'module',
     // Allows for the use of imports
     ecmaFeatures: {
-      jsx: true // Allows for the parsing of JSX
-    }
+      jsx: true, // Allows for the parsing of JSX
+    },
   },
 
   rules: {
@@ -18,7 +23,7 @@ module.exports = {
   },
   settings: {
     react: {
-      version: 'detect' // Tells eslint-plugin-react to automatically detect the version of React to use
-    }
-  }
+      version: 'detect', // Tells eslint-plugin-react to automatically detect the version of React to use
+    },
+  },
 };
