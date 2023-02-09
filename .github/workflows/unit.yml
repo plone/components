@@ -20,7 +20,5 @@ jobs:
       # node install
       - run: yarn
 
-      - run: make start-test-acceptance-server
-
       # node test
-      - run: npx wait-on --httpTimeout 20000 http-get://localhost:55001/plone && yarn test
+      - run: yarn test
