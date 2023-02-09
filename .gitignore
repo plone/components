@@ -1,4 +1,6 @@
 node_modules/
+dist/
+stats.html
 
 # yarn 3
 .pnp.*
