@@ -81,6 +81,7 @@
     "prop-types": "^15.8.1",
     "release-it": "15.6.0",
     "rollup-plugin-visualizer": "^5.9.0",
+    "sass": "^1.58.0",
     "storybook": "^7.0.0-beta.45",
     "stylelint": "14.0.1",
     "stylelint-config-idiomatic-order": "8.1.0",
@@ -93,11 +94,13 @@
     "wait-on": "^7.0.1"
   },
   "dependencies": {
+    "bootstrap": "^5.2.3",
     "classnames": "^2.3.2",
     "compression": "^1.7.4",
     "express": "^4.18.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "reactstrap": "^9.1.5",
     "serve-static": "^1.15.0"
   },
   "packageManager": "yarn@3.2.3"
