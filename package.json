@@ -32,7 +32,7 @@
   ],
   "scripts": {
     "start": "vite",
-    "build": "tsc && vite build",
+    "build": "vite build",
     "preview": "vite preview",
     "test": "vitest --no-threads --passWithNoTests",
     "coverage": "vitest run --coverage --no-threads",
@@ -99,8 +99,8 @@
     "compression": "^1.7.4",
     "express": "^4.18.2",
     "react": "18.2.0",
+    "react-bootstrap": "^2.7.1",
     "react-dom": "18.2.0",
-    "reactstrap": "^9.1.5",
     "serve-static": "^1.15.0"
   },
   "packageManager": "yarn@3.2.3"
