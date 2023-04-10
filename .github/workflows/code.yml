@@ -24,7 +24,7 @@ jobs:
 
       # ESlint
       - name: ESlint
-        run: yarn lint
+        run: yarn eslint
 
       # Prettier
       - name: Prettier

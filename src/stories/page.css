@@ -38,9 +38,9 @@ section li {
 section .tip {
   display: inline-block;
   padding: 4px 12px;
+  border-radius: 1em;
   margin-right: 10px;
   background: #e7fdd8;
-  border-radius: 1em;
   color: #66bf3c;
   font-size: 11px;
   font-weight: 700;
