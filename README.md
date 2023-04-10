@@ -1,10 +1,10 @@
-# @plone/atoms
+# @plone/components
 
-[![NPM](https://img.shields.io/npm/v/@plone/atoms.svg)](https://www.npmjs.com/package/@plone/atoms)
-[![Build Status](https://github.com/plone/atoms/actions/workflows/code.yml/badge.svg)](https://github.com/plone/atoms/actions)
-[![Build Status](https://github.com/plone/atoms/actions/workflows/unit.yml/badge.svg)](https://github.com/plone/atoms/actions)
+[![NPM](https://img.shields.io/npm/v/@plone/components.svg)](https://www.npmjs.com/package/@plone/components)
+[![Build Status](https://github.com/plone/components/actions/workflows/code.yml/badge.svg)](https://github.com/plone/components/actions)
+[![Build Status](https://github.com/plone/components/actions/workflows/unit.yml/badge.svg)](https://github.com/plone/components/actions)
 
-This package contains basic and structural ReactJS components for use Plone as a headless CMS.
+This package contains ReactJS components for use Plone as a headless CMS.
 
 The purpose of this package is to provide a third party design system free and agnostic set of baseline components to build upon.
 
