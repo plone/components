@@ -31,7 +31,7 @@ type Story = StoryObj<typeof meta>;
 export const Default: Story = {
   // render: (args) => <InputRender {...args} />,
   args: {
-    id: 'field-empty',
+    name: 'field-empty',
     title: 'field 1 title',
     description: 'Optional help text',
     placeholder: 'Type something…',
@@ -41,7 +41,7 @@ export const Default: Story = {
 export const Required: Story = {
   args: {
     ...Default.args,
-    id: 'field-required',
+    name: 'field-required',
     isRequired: true,
   },
 };
@@ -49,7 +49,7 @@ export const Required: Story = {
 export const Filled: Story = {
   args: {
     ...Default.args,
-    id: 'field-filled',
+    name: 'field-filled',
     title: 'Filled field title',
     value: 'Filled with value A',
     isRequired: true,
@@ -59,7 +59,7 @@ export const Filled: Story = {
 export const Errored: Story = {
   args: {
     ...Default.args,
-    id: 'field-errored',
+    name: 'field-errored',
     title: 'Errored field title',
     value: 'Filled with value A',
     error: ['This is the error'],
@@ -71,7 +71,7 @@ export const Errored: Story = {
 export const Disabled: Story = {
   args: {
     ...Default.args,
-    id: 'field-disabled',
+    name: 'field-disabled',
     title: 'Disabled field title',
     isDisabled: true,
   },

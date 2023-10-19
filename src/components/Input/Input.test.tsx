@@ -4,7 +4,7 @@ import Input from './Input';
 
 expect.extend(toHaveNoViolations);
 
-it('should demonstrate this matcher`s usage with react testing library', async () => {
+it('Input basic a11y test', async () => {
   const { container } = render(
     <Input
       name="field1"
