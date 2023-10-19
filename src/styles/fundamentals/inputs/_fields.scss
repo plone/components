@@ -11,7 +11,8 @@
   color: $denim;
   cursor: text;
   text-overflow: ellipsis;
-  transition: background-color $time-tiny ease-in-out,
+  transition:
+    background-color $time-tiny ease-in-out,
     box-shadow $time-tiny ease-in-out;
 
   &:hover {
@@ -67,8 +68,10 @@
     color: $sapphire;
     pointer-events: none;
     touch-action: none;
-    transition: margin-top $time-tiny ease-in-out,
-      margin-left $time-tiny ease-in-out, transform $time-tiny ease-in-out;
+    transition:
+      margin-top $time-tiny ease-in-out,
+      margin-left $time-tiny ease-in-out,
+      transform $time-tiny ease-in-out;
     user-select: none;
     @extend %label-medium;
   }

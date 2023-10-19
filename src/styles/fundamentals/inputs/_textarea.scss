@@ -50,7 +50,9 @@ div.q.textarea {
     margin-top: -18px;
     background-color: $snow;
     pointer-events: none;
-    transition: box-shadow 0s ease, background-color 0.24s ease;
+    transition:
+      box-shadow 0s ease,
+      background-color 0.24s ease;
 
     &::after {
       position: absolute;
@@ -79,7 +81,9 @@ div.q.textarea {
   &:focus ~ .resizer {
     background-color: $air;
     box-shadow: inset -3px -3px 0 0px $cobalt;
-    transition: box-shadow 0s ease, background-color 0.24s ease;
+    transition:
+      box-shadow 0s ease,
+      background-color 0.24s ease;
 
     &::after {
       background-color: $cobalt;
