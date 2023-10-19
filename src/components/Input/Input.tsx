@@ -21,7 +21,7 @@ export default function Input({
   ...props
 }: InputProps) {
   return (
-    <TextField {...props} className="q field">
+    <TextField {...props} className={cx('q field', `field-${props.name}`)}>
       <RACInput className={cx('q input', { error: error })} />
       <Label className="q label">{title}</Label>
       {description && (

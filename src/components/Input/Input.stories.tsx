@@ -63,7 +63,7 @@ export const Errored: Story = {
     title: 'Errored field title',
     value: 'Filled with value A',
     error: ['This is the error'],
-    validationState: 'invalid',
+    isInvalid: true,
     isRequired: true,
   },
 };
