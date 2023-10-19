@@ -7,13 +7,13 @@
     "changelog": "pipx run towncrier build --draft --yes --version 0.0.0",
     "requireUpstream": false,
     "requireCleanWorkingDir": false,
-    "commitMessage": "Release @plone/client ${version}",
-    "tagName": "plone-client-${version}",
-    "tagAnnotation": "Release @plone/client ${version}"
+    "commitMessage": "Release @plone/components ${version}",
+    "tagName": "plone-components-${version}",
+    "tagAnnotation": "Release @plone/components ${version}"
   },
   "github": {
     "release": true,
-    "releaseName": "@plone/client ${version}",
+    "releaseName": "@plone/components ${version}",
     "releaseNotes": "cat .changelog.draft"
   }
 }
