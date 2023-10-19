@@ -11,3 +11,4 @@ The purpose of this package is to provide a third party design system free and a
 ## Components list
 
 - Container
+- Input
