@@ -13,3 +13,22 @@ The purpose of this package is to provide a third party design system free and a
 
 - Container
 - Input
+
+## Demo / Storybook
+
+https://plone-components.netlify.app/
+
+## Development
+
+This package follows a style guide (Storybook) driven development. The components are developed in isolation, given their own Storybook stories.
+
+The components are expected to be data-driven-less. So they won't rely internally in any data retrieval facility or utilities.
+They receive the necessary data as props. In that regard, they should be "dumb" components that only take care of rendering. This should be specially true for the most basic components.
+
+## Releases
+
+The release policy for this package follows a quick 1.0.0 release, as opposed to have a excessive long alpha/beta road to 1.0.0. This is because the development of this package is expected to happen during the next years.
+
+## PLIP #4352
+
+This package is the result of the execution of the [Plone Improvement Proposal #4352](https://github.com/plone/volto/issues/4352).
