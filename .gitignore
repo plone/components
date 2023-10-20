@@ -1,6 +1,7 @@
 node_modules/
 dist/
 stats.html
+storybook-static
 
 # yarn 3
 .pnp.*
