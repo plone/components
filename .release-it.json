@@ -8,12 +8,12 @@
     "requireUpstream": false,
     "requireCleanWorkingDir": false,
     "commitMessage": "Release @plone/components ${version}",
-    "tagName": "plone-components-${version}",
-    "tagAnnotation": "Release @plone/components ${version}"
+    "tagName": "${version}",
+    "tagAnnotation": "Release ${version}"
   },
   "github": {
     "release": true,
-    "releaseName": "@plone/components ${version}",
+    "releaseName": "${version}",
     "releaseNotes": "cat .changelog.draft"
   }
 }

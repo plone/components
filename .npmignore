@@ -1,13 +1,24 @@
 news
 towncrier.toml
+.towncrier
+.storybook
 .changelog.draft
 node_modules/
+.vscode
+.github
+coverage
+storybook-static
+stats.html
+setupTesting.ts
+
+.prettierignore
+.prettierrc
+.release-it.json
+.eslintrc.cjs
+.stylelintrc
+Makefile
 
 # yarn 3
+.yarnrc.yml
 .pnp.*
-.yarn/*
-!.yarn/patches
-!.yarn/plugins
-!.yarn/releases
-!.yarn/sdks
-!.yarn/versions
+.yarn

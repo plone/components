@@ -7,3 +7,18 @@
 -->
 
 <!-- towncrier release notes start -->
+
+## 1.0.1 (2023-10-20)
+
+### Bugfix
+
+- Cleanup @sneridagh [#2](https://github.com/plone/components/issues/2)
+
+
+## 1.0.0 (2023-10-20)
+
+### Feature
+
+- Initial release @sneridagh
+  Container component @sneridagh
+  Input component @sneridagh [#1](https://github.com/plone/components/issues/1)
