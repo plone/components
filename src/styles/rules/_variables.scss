@@ -85,6 +85,16 @@ $puya:     hsl($temperature-base - (calc($s-rotate / 5)), 60%, 23%);
     --rose:         #{$rose};
     --candy:        #{$candy};
     --wine:         #{$wine};
+
+    --banana:       #{$banana};
+    --gold:         #{$gold};
+    --mint:         #{$mint};
+    --neon:         #{$neon};
+    --turtle:       #{$turtle};
+    --spa:          #{$spa};
+    --tiffany:      #{$tiffany};
+    --turquoise:    #{$turquoise};
+    --puya:         #{$puya};
 }
 /*
 @media (prefers-color-scheme: dark) {
