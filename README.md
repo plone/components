@@ -39,7 +39,9 @@ https://medium.com/@nirbenyair/headless-components-in-react-and-why-i-stopped-us
 
 ## Releases
 
-The release policy for this package follows a quick 1.0.0 release, as opposed to have a excessive long alpha/beta road to 1.0.0. This is because the development of this package is expected to happen during the next years.
+The release policy for this package follows a quick 1.0.0 release, as opposed to have a excessive long lasted alpha/beta road to 1.0.0. This is because the development of this package is expected to happen during the next years.
+
+Breaking changes will be stated properly using semantic versioning, however an upgrade guide won't be supplied until the package is considered "ready for production". The team will communicate this state properly when the moment comes.
 
 ## PLIP #4352
 
