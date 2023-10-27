@@ -41,7 +41,7 @@ $wine:     hsl($temperature-base + (calc($s-rotate / 1)), 90%, 35%);
 
 //$cream:    hsl(#{$temperature-base - (calc($s-rotate / 1))}, 90%, 90%);
 $banana:   hsl($temperature-base - (calc($s-rotate / 1)), 90%, 83%);
-//$lemon:    hsl(#{$temperature-base - (calc($s-rotate / 1))}, 90%, 65%);
+$lemmon:   hsl($temperature-base - (calc($s-rotate / 1)), 90%, 65%);
 $gold:     hsl($temperature-base - (calc($s-rotate / 1)), 90%, 37%);
 //$dijon:    hsl(#{$temperature-base - (calc($s-rotate / 1)), 90%, 30%);
 //$bronze:   hsl(#{$temperature-base - (calc($s-rotate / 1)), 90%, 22%);
@@ -87,6 +87,7 @@ $puya:     hsl($temperature-base - (calc($s-rotate / 5)), 60%, 23%);
     --wine:         #{$wine};
 
     --banana:       #{$banana};
+    --lemmon:       #{$lemmon};
     --gold:         #{$gold};
     --mint:         #{$mint};
     --neon:         #{$neon};

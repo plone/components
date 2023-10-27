@@ -3,7 +3,6 @@
   align-items: center;
   padding: 0;
   margin: 0;
-  font-size: 18px;
   list-style: none;
 
   .q.breadcrumb:not(:last-child)::after {
@@ -11,6 +10,12 @@
     alt: ' ';
     content: '›';
     content: '›' / '';
+  }
+
+  svg.home-icon {
+    margin-top: -5px;
+    margin-right: 5px;
+    vertical-align: middle;
   }
 }
 

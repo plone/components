@@ -11,8 +11,15 @@ The purpose of this package is to provide a third party design system free and a
 
 ## Components list
 
+### Fundamentals
+
 - Container
 - Input
+- Icon
+
+### Structural
+
+- Breadcrumbs
 
 ## Demo / Storybook
 

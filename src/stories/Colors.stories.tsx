@@ -27,6 +27,7 @@ const ColorPalette: React.FC = () => {
     '--wine',
 
     '--banana',
+    '--lemmon',
     '--gold',
     '--mint',
     '--neon',
