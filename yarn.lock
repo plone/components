@@ -2388,6 +2388,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@internationalized/date@npm:^3.5.0":
+  version: 3.5.0
+  resolution: "@internationalized/date@npm:3.5.0"
+  dependencies:
+    "@swc/helpers": ^0.5.0
+  checksum: 621298a1686bad64212b1f2a497492dcc9d657a3789ea62a1a5ee1cb37719fa7a54944d4bb318bf22f709eccfcb6627e6d1aad9825aaa67c2150973ccca8c15d
+  languageName: node
+  linkType: hard
+
 "@internationalized/message@npm:3.1.2-nightly.4220+979044880":
   version: 3.1.2-nightly.4220
   resolution: "@internationalized/message@npm:3.1.2-nightly.4220"
@@ -2395,6 +2404,16 @@ __metadata:
     "@swc/helpers": ^0.5.0
     intl-messageformat: ^10.1.0
   checksum: b1334ea358b03683f3e75f099958204f042d3223cb0d2765ec1cbe7022c6d2810b888c1cb60f3005322a5da8da48c9d3ce694d991eb21a62c6fe7910f425df4c
+  languageName: node
+  linkType: hard
+
+"@internationalized/message@npm:^3.1.1":
+  version: 3.1.1
+  resolution: "@internationalized/message@npm:3.1.1"
+  dependencies:
+    "@swc/helpers": ^0.5.0
+    intl-messageformat: ^10.1.0
+  checksum: c8658847e80a2dd6f5a253bdc20ce45d304ffa2147248e6422d72714ac501edd0d4cce09e4baf7753cd393e4df7014df747425ff9658728cd1f892d71c3d591b
   languageName: node
   linkType: hard
 
@@ -2407,12 +2426,30 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@internationalized/number@npm:^3.3.0":
+  version: 3.3.0
+  resolution: "@internationalized/number@npm:3.3.0"
+  dependencies:
+    "@swc/helpers": ^0.5.0
+  checksum: 76e5bd0e7713d8010be90b2d3427371a0ee97e34e6d81da2c10587986503be308ab8bfd8f590e1d88977800f5d79f9e2d91e7ac1d6d34006575216027125f302
+  languageName: node
+  linkType: hard
+
 "@internationalized/string@npm:3.1.2-nightly.4220+979044880":
   version: 3.1.2-nightly.4220
   resolution: "@internationalized/string@npm:3.1.2-nightly.4220"
   dependencies:
     "@swc/helpers": ^0.5.0
   checksum: a0b10e02c1ddfb18b6918d5146594ad7bdb2204bdfd6e5af3e1545e44971a87c1b8f0c784a11e726e5c79714743a3ef1c19538e97cb5608c9ea8740dca02d8ce
+  languageName: node
+  linkType: hard
+
+"@internationalized/string@npm:^3.1.1":
+  version: 3.1.1
+  resolution: "@internationalized/string@npm:3.1.1"
+  dependencies:
+    "@swc/helpers": ^0.5.0
+  checksum: 686b4d443dbf6794b5f32e0c3a0ee9333a64bfe2a01aec705fb71f5721f5c9e8aa25b380bdae85e21be0dc72103843642363efcaed437ebad3e7169e478b91ae
   languageName: node
   linkType: hard
 
@@ -2913,6 +2950,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@plone/components@workspace:."
   dependencies:
+    "@react-spectrum/utils": ^3.11.1
     "@storybook/addon-essentials": ^7.5.1
     "@storybook/addon-interactions": ^7.5.1
     "@storybook/addon-links": ^7.5.1
@@ -3789,6 +3827,24 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@react-aria/i18n@npm:^3.8.4":
+  version: 3.8.4
+  resolution: "@react-aria/i18n@npm:3.8.4"
+  dependencies:
+    "@internationalized/date": ^3.5.0
+    "@internationalized/message": ^3.1.1
+    "@internationalized/number": ^3.3.0
+    "@internationalized/string": ^3.1.1
+    "@react-aria/ssr": ^3.8.0
+    "@react-aria/utils": ^3.21.1
+    "@react-types/shared": ^3.21.0
+    "@swc/helpers": ^0.5.0
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0
+  checksum: 6539c6c548fbe4ee22a40acc55018d469c1f72c2160a35006f16d6a920936db63d3b6b9055e1251a8a588c09e6c392b0e1a6a6da1b78dc02ee990e54a365b099
+  languageName: node
+  linkType: hard
+
 "@react-aria/interactions@npm:3.0.0-nightly.2509+979044880":
   version: 3.0.0-nightly.2509
   resolution: "@react-aria/interactions@npm:3.0.0-nightly.2509"
@@ -4105,6 +4161,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@react-aria/ssr@npm:^3.8.0":
+  version: 3.8.0
+  resolution: "@react-aria/ssr@npm:3.8.0"
+  dependencies:
+    "@swc/helpers": ^0.5.0
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0
+  checksum: bdcd16da76d9af75dab0c44907963d9367562bc3261c6871a8ee15754e92f929dcd886e5553e08d6193ddb174d78382c10fb7b9b8c7b0cf470bc18c2ed34b106
+  languageName: node
+  linkType: hard
+
 "@react-aria/switch@npm:3.0.0-nightly.2509+979044880":
   version: 3.0.0-nightly.2509
   resolution: "@react-aria/switch@npm:3.0.0-nightly.2509"
@@ -4270,6 +4337,21 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@react-aria/utils@npm:^3.21.1":
+  version: 3.21.1
+  resolution: "@react-aria/utils@npm:3.21.1"
+  dependencies:
+    "@react-aria/ssr": ^3.8.0
+    "@react-stately/utils": ^3.8.0
+    "@react-types/shared": ^3.21.0
+    "@swc/helpers": ^0.5.0
+    clsx: ^1.1.1
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0
+  checksum: 8e461ca8cd8d6ec57d4eb194627454255dbb9f855eb827665708072cc284146801838106fda4324eb98822cf4e0157fefc0123524fa9b2bb9fc92c643dfbf725
+  languageName: node
+  linkType: hard
+
 "@react-aria/visually-hidden@npm:3.0.0-nightly.2509+979044880":
   version: 3.0.0-nightly.2509
   resolution: "@react-aria/visually-hidden@npm:3.0.0-nightly.2509"
@@ -4282,6 +4364,22 @@ __metadata:
   peerDependencies:
     react: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0
   checksum: 2e6038220387d6565eb2f36fb2b94ceaf1a236d8c9cf38b08ada4c49b876f6e1ebd214d9d4b1365397a18e99e40c7a649b2291c92688068ff237777b67f8a319
+  languageName: node
+  linkType: hard
+
+"@react-spectrum/utils@npm:^3.11.1":
+  version: 3.11.1
+  resolution: "@react-spectrum/utils@npm:3.11.1"
+  dependencies:
+    "@react-aria/i18n": ^3.8.4
+    "@react-aria/ssr": ^3.8.0
+    "@react-aria/utils": ^3.21.1
+    "@react-types/shared": ^3.21.0
+    "@swc/helpers": ^0.5.0
+    clsx: ^1.1.1
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0
+  checksum: 3d1e31473d92fefc986e39f17d9e360a86001689823925b65b31bed4b5336149819ed46041c10e1808d1e9252b651d4e24f517c123a136439321a5e8db74f10b
   languageName: node
   linkType: hard
 
@@ -4649,6 +4747,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@react-stately/utils@npm:^3.8.0":
+  version: 3.8.0
+  resolution: "@react-stately/utils@npm:3.8.0"
+  dependencies:
+    "@swc/helpers": ^0.5.0
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0
+  checksum: 908423686bbf9a6d5d364456f60314047466f338de93e3789db38c292c6b9e953b227b554d0d175b7a2a5da544bbd59cb39d2897e575fcb79c85274bab65d223
+  languageName: node
+  linkType: hard
+
 "@react-stately/virtualizer@npm:3.6.4-nightly.4220+979044880":
   version: 3.6.4-nightly.4220
   resolution: "@react-stately/virtualizer@npm:3.6.4-nightly.4220"
@@ -4887,6 +4996,15 @@ __metadata:
   peerDependencies:
     react: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0
   checksum: dcc9dfd2703fce096e28ca8b3f84cfdfdc2ca9767a9396ded02074af36611895ff1ccbd4b7b539665ed120b4521f723ab01f57a75551461d1acf6acc961b0d00
+  languageName: node
+  linkType: hard
+
+"@react-types/shared@npm:^3.21.0":
+  version: 3.21.0
+  resolution: "@react-types/shared@npm:3.21.0"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0-rc.1 || ^18.0.0
+  checksum: 1decbd6765c345104225e9245eb865e154fa6b869f6f9ee298f4e0a988333b9d819fb05217eb6ce38c7f3d3f1b81e6aabf14c1ee378acbc2c21a162d1181ac12
   languageName: node
   linkType: hard
 
