@@ -8,6 +8,14 @@
 
 <!-- towncrier release notes start -->
 
+## 1.2.0 (2023-10-28)
+
+### Feature
+
+- New component: Icon
+  Styling for Breadcrumbs component.
+  Improve the Breadcrumbs component internally. @sneridagh [#7](https://github.com/plone/components/issues/7)
+
 ## 1.1.0 (2023-10-24)
 
 ### Feature
