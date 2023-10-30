@@ -1,8 +1,8 @@
 import {
   Breadcrumbs as RACBreadcrumbs,
   Breadcrumb,
-  Link,
 } from 'react-aria-components';
+import { Link } from '../Link/Link';
 import HomeIcon from './HomeIcon';
 import type { BreadcrumbsProps as RACBreadcrumbsProps } from 'react-aria-components';
 
@@ -38,6 +38,7 @@ export default function Breadcrumbs({
     };
     itemsWithRoot = [rootItem, ...(items as Breadcrumb[])];
   }
+
   return (
     <nav aria-label="breadcrumbs" role="navigation">
       <RACBreadcrumbs className="q breadcrumbs" items={itemsWithRoot || items}>
