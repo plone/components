@@ -8,6 +8,15 @@
 
 <!-- towncrier release notes start -->
 
+## 1.3.0 (2023-10-31)
+
+### Feature
+
+- New component: `Link`
+  New provider: `FlattenToAppURLProvider`
+  Based on the `react-aria-components` `Link` component
+  It uses the new `FlattenToAppURLProvider` helper to flatten all the incoming URLs @sneridagh [#8](https://github.com/plone/components/issues/8)
+
 ## 1.2.0 (2023-10-28)
 
 ### Feature
