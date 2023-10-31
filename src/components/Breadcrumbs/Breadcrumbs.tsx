@@ -2,7 +2,7 @@ import {
   Breadcrumbs as RACBreadcrumbs,
   Breadcrumb,
 } from 'react-aria-components';
-import { Link } from '../Link/Link';
+import Link from '../Link/Link';
 import HomeIcon from './HomeIcon';
 import type { BreadcrumbsProps as RACBreadcrumbsProps } from 'react-aria-components';
 

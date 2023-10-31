@@ -1,9 +1,10 @@
-import React, { forwardRef, ForwardedRef } from 'react';
+import { forwardRef, ForwardedRef } from 'react';
 import { Link as RACLink, LinkProps } from 'react-aria-components';
 import { forwardRefType } from 'react-aria-components/src/utils';
-import { flattenToAppURL } from '../../../../../app/utils';
+import { useFlattenToAppURL } from '../../providers/flattenToAppURL';
 
 const Link = (props: LinkProps, ref: ForwardedRef<HTMLAnchorElement>) => {
+  const { flattenToAppURL } = useFlattenToAppURL();
   const flattenedURL = flattenToAppURL(props.href);
 
   return (
@@ -14,4 +15,4 @@ const Link = (props: LinkProps, ref: ForwardedRef<HTMLAnchorElement>) => {
 };
 
 const _Link = /*#__PURE__*/ (forwardRef as forwardRefType)(Link);
-export { _Link as Link };
+export { _Link as default };
