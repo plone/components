@@ -1,7 +1,8 @@
 import { forwardRef, ForwardedRef } from 'react';
 import { Link as RACLink, LinkProps } from 'react-aria-components';
-import { forwardRefType } from 'react-aria-components/src/utils';
 import { useFlattenToAppURL } from '../../providers/flattenToAppURL';
+
+type forwardRefType = typeof forwardRef;
 
 const Link = (props: LinkProps, ref: ForwardedRef<HTMLAnchorElement>) => {
   const { flattenToAppURL } = useFlattenToAppURL();
