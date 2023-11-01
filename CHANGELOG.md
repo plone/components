@@ -8,6 +8,16 @@
 
 <!-- towncrier release notes start -->
 
+## 1.4.0 (2023-11-01)
+
+### Feature
+
+- Add build process to the package, add the resultant build to the npm release @sneridagh [#11](https://github.com/plone/components/issues/11)
+
+### Internal
+
+- Update to latest @types/react @sneridagh [#10](https://github.com/plone/components/issues/10)
+
 ## 1.3.0 (2023-10-31)
 
 ### Feature
