@@ -15,7 +15,8 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
-    "types": ["vite", "vitest/globals"]
+    "types": ["vite", "vitest/globals"],
+    "baseUrl": "."
   },
   "include": ["src", "./setupTesting.ts"],
   "exclude": ["node_modules", "dist", "coverage", "src/**/*.test.{ts,tsx}"],
