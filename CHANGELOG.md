@@ -8,6 +8,12 @@
 
 <!-- towncrier release notes start -->
 
+## 1.4.1 (2023-11-01)
+
+### Internal
+
+- Fixed wrong pointer to the new d.ts file @sneridagh [#0](https://github.com/plone/components/issues/0)
+
 ## 1.4.0 (2023-11-01)
 
 ### Feature
