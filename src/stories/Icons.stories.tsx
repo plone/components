@@ -108,7 +108,7 @@ const IconsList: React.FC = () => {
     Icons.WindowedIcon,
     Icons.WorldIcon,
   ];
-  console.log(icons);
+
   return (
     <div>
       {icons.map((QuantaIcon) => (
