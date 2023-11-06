@@ -113,7 +113,7 @@ const IconsList: React.FC = () => {
     <div>
       {icons.map((QuantaIcon) => (
         <div
-          key={QuantaIcon.toString()}
+          key={QuantaIcon.name}
           style={{
             height: '100px',
             width: '100px',
