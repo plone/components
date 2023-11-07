@@ -20,6 +20,7 @@ const ColorPalette: React.FC = () => {
     '--sapphire',
     '--royal',
 
+    '--ballet',
     '--flamingo',
     '--poppy',
     '--rose',
