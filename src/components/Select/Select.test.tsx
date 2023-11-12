@@ -32,7 +32,7 @@ it('Select basic a11y test', async () => {
       {(item) => <SelectItem id={item.label}>{item.value}</SelectItem>}
     </Select>,
   );
-  const asd = screen.getByText('Select…');
+  screen.getByText('Select…');
 
   const results = await axe(container);
 
