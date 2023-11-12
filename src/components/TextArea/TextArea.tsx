@@ -1,8 +1,9 @@
 import type { TextFieldProps } from 'react-aria-components';
 import {
+  FieldError,
+  Label,
   Text,
   TextField,
-  Label,
   TextArea as RACTextArea,
 } from 'react-aria-components';
 import cx from 'classnames';
@@ -30,11 +31,7 @@ export default function Input({
           {description}
         </Text>
       )}
-      {error?.map((message) => (
-        <Text slot="errorMessage" className="q assist" key={message}>
-          {message}
-        </Text>
-      ))}
+      <FieldError className="q assist">{error}</FieldError>
     </TextField>
   );
 }
