@@ -8,6 +8,19 @@
 
 <!-- towncrier release notes start -->
 
+## 1.5.0 (2023-11-12)
+
+### Feature
+
+- Add Quanta icons as react components ready to use with the Icon component @sneridagh [#12](https://github.com/plone/components/issues/12)
+- Basic `Select` component.
+  Introduce new FieldError component.
+  Other CSS fixes. @sneridagh [#14](https://github.com/plone/components/issues/14)
+
+### Internal
+
+- Update to `react-aria-components` RC. @sneridagh [#14](https://github.com/plone/components/issues/14)
+
 ## 1.4.1 (2023-11-01)
 
 ### Internal
