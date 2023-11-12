@@ -8,6 +8,12 @@
 
 <!-- towncrier release notes start -->
 
+## 1.6.0 (2023-11-12)
+
+### Internal
+
+- Update Textarea with new FieldError component @sneridagh [#15](https://github.com/plone/components/issues/15)
+
 ## 1.5.0 (2023-11-12)
 
 ### Feature
