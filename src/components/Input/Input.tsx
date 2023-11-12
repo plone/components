@@ -1,9 +1,10 @@
 import type { TextFieldProps } from 'react-aria-components';
 import {
+  FieldError,
+  Input as RACInput,
+  Label,
   Text,
   TextField,
-  Label,
-  Input as RACInput,
 } from 'react-aria-components';
 import cx from 'classnames';
 
@@ -21,19 +22,19 @@ export default function Input({
   ...props
 }: InputProps) {
   return (
-    <TextField {...props} className={cx('q field', `field-${props.name}`)}>
+    <TextField
+      {...props}
+      className={cx('q field', `field-${props.name}`)}
+      data-required={props.isRequired || undefined}
+    >
       <RACInput className={cx('q input', { error: error })} />
       <Label className="q label">{title}</Label>
+      <FieldError className="q assist">{error}</FieldError>
       {description && (
         <Text slot="description" className="q hint">
           {description}
         </Text>
       )}
-      {error?.map((message) => (
-        <Text slot="errorMessage" className="q assist" key={message}>
-          {message}
-        </Text>
-      ))}
     </TextField>
   );
 }

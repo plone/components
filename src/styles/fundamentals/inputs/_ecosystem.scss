@@ -8,19 +8,23 @@
 }
 
 //// Required
-.q.input[aria-required] + label::after {
+.q.field[data-required] label::after,
+.q.field[data-required] .q.label::after {
   content: url($icon-mandatory);
 }
 
-.q.input[aria-required]:not(:placeholder-shown):not(:hover):not(:active):not(
-    :focus
-  )
-  + label::after {
+.q.field[data-required]
+  .q.input:not(:placeholder-shown):not(:hover):not(:active):not(:focus)
+  + label::after,
+.q.field[data-required]
+  .q.input:not(:placeholder-shown):not(:hover):not(:active):not(:focus)
+  + .q.label::after {
   filter: grayscale(1);
 }
 
 //// Optional
-.q.input.optional + label::after {
+.q.input.optional + label::after,
+.q.input.optional + .q.label::after {
   content: '— Optional';
 }
 
