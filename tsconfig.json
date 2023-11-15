@@ -16,9 +16,22 @@
     "noEmit": true,
     "jsx": "react-jsx",
     "types": ["vite", "vitest/globals"],
-    "baseUrl": "."
+    "baseUrl": ".",
+    "paths": {
+      "@plone/types/*": ["src/lib/plone/packages/types/*"]
+    }
   },
   "include": ["src", "./setupTesting.ts"],
-  "exclude": ["node_modules", "dist", "coverage", "src/**/*.test.{ts,tsx}"],
-  "references": [{ "path": "./tsconfig.node.json" }]
+  "exclude": [
+    "node_modules",
+    "dist",
+    "coverage",
+    "src/**/*.test.{ts,tsx}",
+    "src/**/*.stories.{ts,tsx}"
+  ],
+  "references": [
+    {
+      "path": "./tsconfig.node.json"
+    }
+  ]
 }

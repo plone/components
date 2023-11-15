@@ -1,0 +1,10 @@
+{
+  "plone": {
+    "packages": {
+      "@plone/types/*": "/packages/types/*"
+    },
+    "url": "git@github.com:plone/volto.git",
+    "https": "https://github.com/plone/volto.git",
+    "branch": "plone/types"
+  }
+}
