@@ -12,3 +12,5 @@ lib
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+
+.parcel-cache/
