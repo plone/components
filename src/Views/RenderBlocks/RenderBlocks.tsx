@@ -9,10 +9,29 @@ import type { BlocksConfig } from '@plone/types/config/Blocks';
 import type { Location } from 'history';
 
 type RenderBlocksProps = {
+  /**
+   * Plone content object
+   */
   content: GetContentResponse;
+  /**
+   * Current blocks configuration object
+   * From the registry or local to this instance (eg. in a blocks in block container)
+   */
   blocksConfig: BlocksConfig;
+  /**
+   * Wrap the blocks in an enclosing tag
+   * From the registry or local to this instance (eg. in a blocks in block container)
+   */
   as: React.ElementType;
+  /**
+   * Router location object
+   */
   location: Location;
+  /**
+   * Metadata object
+   * In case of the blocks in block container use case, it's the metadata (content data)
+   * from the parent container, passed down to the contained blocks
+   */
   metadata?: GetContentResponse;
 };
 
