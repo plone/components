@@ -22,15 +22,15 @@
     "src",
     "README.md"
   ],
-  "main": "./dist/index.umd.cjs",
+  "source": "./src/index.ts",
+  "main": "./dist/index.cjs",
   "module": "./dist/index.js",
   "types": "./dist/src/index.d.ts",
-  "source": "./src/index.ts",
   "exports": {
     ".": {
       "types": "./dist/src/index.d.ts",
       "import": "./dist/index.js",
-      "require": "./dist/index.umd.cjs"
+      "require": "./dist/index.cjs"
     },
     "./src/*": "./src/*"
   },
@@ -46,7 +46,8 @@
     "react-query"
   ],
   "scripts": {
-    "build": "vite build",
+    "develop": "npx -p mrs-developer missdev --output=lib --fetch-https",
+    "build": "parcel build",
     "test": "vitest --no-threads --passWithNoTests",
     "coverage": "vitest run --coverage --no-threads",
     "lint": "yarn eslint && yarn prettier && yarn stylelint",
@@ -68,6 +69,8 @@
     "access": "public"
   },
   "devDependencies": {
+    "@parcel/packager-ts": "2.10.3",
+    "@parcel/transformer-typescript-types": "2.10.3",
     "@storybook/addon-essentials": "^7.5.1",
     "@storybook/addon-interactions": "^7.5.1",
     "@storybook/addon-links": "^7.5.1",
@@ -90,8 +93,10 @@
     "eslint-plugin-prettier": "5.0.1",
     "eslint-plugin-react": "7.33.2",
     "eslint-plugin-storybook": "^0.6.15",
+    "history": "^5.3.0",
     "jest-axe": "^8.0.0",
     "jsdom": "^22.1.0",
+    "parcel": "^2.10.3",
     "postcss-scss": "4.0.9",
     "prettier": "3.0.3",
     "release-it": "16.2.1",
@@ -104,13 +109,15 @@
     "stylelint-prettier": "4.0.2",
     "typescript": "5.2.2",
     "vite": "^4.5.0",
-    "vite-plugin-dts": "^3.6.3",
     "vitest": "^0.34.6",
     "vitest-axe": "^0.1.0"
   },
   "dependencies": {
+    "@react-aria/utils": "^3.22.0",
     "@react-spectrum/utils": "^3.11.1",
     "classnames": "^2.3.2",
+    "clsx": "^2.0.0",
+    "lodash": "^4.17.21",
     "react": "18.2.0",
     "react-aria-components": "^1.0.0-rc.0",
     "react-dom": "18.2.0"
